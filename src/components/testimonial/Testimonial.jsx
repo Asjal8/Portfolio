@@ -2,7 +2,11 @@ import React from "react";
 import "./testimonial.css";
 
 const Testimonial = () => {
-  return <div>Testimonial</div>;
+  return (
+    <section id="testimonial">
+      <div>Testimonial</div>
+    </section>
+  );
 };
 
 export default Testimonial;
